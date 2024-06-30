@@ -17,7 +17,12 @@ p{
     padding-right: 2.5%;
 }
 
-#descricao, .linhas{
+.linhas{
+    width: 90%;
+    border-bottom: 1px solid #000000;
+}
+
+#descricao{
     width: 100%;
     border: 1px solid #000000;
 }
@@ -28,8 +33,6 @@ p{
 }
 
 #informacoes{
-    display: flex;
     padding-right: 10%;
     padding-left: 10%;
-    justify-content: center;
 }
