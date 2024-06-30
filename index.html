@@ -4,78 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Provas</title>
+    <title>Brasileirão Série A</title>
 </head>
 <header>
-    <h1 align="center">Calendário</h1>
+    <div>
+        <h1 id="titulo">Brasileirão Série A</h1>
+    </div>
 </header>
 <body>
-    <h3 align="center">Junho</h3>
     <table align="center" border="1" >
-        <tr>
-        <th>domingo</th>
-        <th>segunda</th>
-        <th>terça</th>
-        <th>quarta</th>
-        <th>quinta</th>
-        <th>sexta</th>
-        <th>sábado</th>
+        <tr id = "cabeçalho" class = "tabela">
+        <th>Posição</th>
+        <th>Clubes</th>
+        <th>Pontos</th>
+        <th>Partidas Jogadas</th>
+        <th>Vitorias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Gols Marcados</th>
+        <th>Gols Contra</th>
+        <th>Saldo de Gols</th>
         </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>01</td>
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>03</td>
-            <td>04</td>
-            <td>05</td>
-            <td>06</td>
-            <td>07</td>
-            <td>08</td>
-        </tr>
-        <tr>
-            <td>09</td>
-            <td>10</td>
-            <td>11</td>
+        <tr id = "palmeiras" class = "tabela">
+            <td>1º</td>
+            <td id = "clube"><img src="/images/escudo_palmeiras_2.png" alt="escudo_palmeiras" width="30" height="30">Palmeiras</td>
+            <td>81</td>
+            <td>38</td>
+            <td>23</td>
             <td>12</td>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            <td>3</td>
+            <td>66</td>
+            <td>27</td>
+            <td>39</td>
         </tr>
-        <tr>
-            <td>16</td>
-            <td>17</td>
-            <td>18</td>
-            <td>19</td>
+        <tr id = "internacional" class = "tabela">
+            <td>2º</td>
+            <td id = "clube"><img src="/images/Escudo_do_Sport_Club_Internacional.svg.png" alt="escudo_internacional" width="30" height="30">Internacional</td>
+            <td>73</td>
+            <td>38</td>
             <td>20</td>
+            <td>13</td>
+            <td>5</td>
+            <td>58</td>
+            <td>31</td>
+            <td>27</td>
+        </tr>
+        <tr id = "fluminense" class = "tabela">
+            <td>3º</td>
+            <td id = "clube"><img src="/images/Fluminense_FC_escudo.png" alt="escudo_fluminense" width="30" height="30">Fluminense</td>
+            <td>70</td>
+            <td>38</td>
             <td>21</td>
+            <td>7</td>
+            <td>10</td>
+            <td>63</td>
+            <td>41</td>
             <td>22</td>
         </tr>
-        <tr>
-            <td>23</td>
-            <td>24</td>
-            <td>25</td>
-            <td>26</td>
-            <td>27</td>
-            <td>28</td>
-            <td>29</td>
-        </tr>
-        <tr>
-            <td>30</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+        <tr id = "corinthians" class = "tabela">
+            <td>3º</td>
+            <td id = "clube"><img src="/images/escudo_corinthians1.png" alt="escudo_corinthians" width="30" height="30">Corinthians</td>
+            <td>65</td>
+            <td>38</td>
+            <td>18</td>
+            <td>11</td>
+            <td>9</td>
+            <td>44</td>
+            <td>36</td>
+            <td>8</td>
         </tr>
     </table>
-    
+    <h1 >Sobre os Times</h1>
+    <div id="informacoes">
+        <div id="descricao">
+        <h2 class = "linhas">Palmeiras</h2>
+        <h3>Origem</h3>
+        <p>São Paulo</p>
+        <h3>Estadio</h3>
+        <p>Allianz Parque</p>
+        <h3>Curiosidade</h3>
+        <p>Campeão Braseileiro de 2022</p>
+    </div>
+        <div id="descricao">
+        <h2 class="linhas">Internacional</h2>
+        <h3>Origem</h3>
+        <p>Porto Alegre</p>
+        <h3>Estadio</h3>
+        <p>Estádio Beira-Rio</p>
+        <h3>Curiosidade</h3>
+        <p>Hexacampeão Gaúcho em 2016</p>
+    </div>
+    <div id="descricao">
+        <h2 class = "linhas">Fluminense</h2>
+        <h3>Origem</h3>
+        <p>Rio de Janeiro</p>
+        <h3>Estadio</h3>
+        <p>Maracanã</p>
+        <h3>Curiosidade</h3>
+        <p>Tetracampeão Brasileiro - 1970, 1984, 2010 e 2012</p>
+    </div>
+    <div id="descricao">
+        <h2 class = "linhas">Corinthians</h2>
+        <h3>Origem</h3>
+        <p>São Paulo</p>
+        <h3>Estadio</h3>
+        <p>Neo Química Arena</p>
+        <h3>Curiosidade</h3>
+        <p>Heptacampeão Brasileiros - 1990, 1998, 1999, 2005, 2011, 2015 e 2017</p>
+    </div>
+    </div>
 </body>
 </html>

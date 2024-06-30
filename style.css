@@ -1,7 +1,35 @@
-*{
-    background-color: white;
-}
 #titulo{
     display: flex;
+    justify-content: center;
+}
+
+h1, h2{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+h3{
+    padding-left: 5.5%;
+}
+
+p{
+    padding-left: 7.5%;
+    padding-right: 2.5%;
+}
+
+#descricao, .linhas{
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+#descricao{
+    text-indent: 5%;
+    padding: 2%;
+}
+
+#informacoes{
+    display: flex;
+    padding-right: 10%;
+    padding-left: 10%;
     justify-content: center;
 }
